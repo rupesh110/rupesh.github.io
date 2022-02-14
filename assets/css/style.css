@@ -169,6 +169,33 @@ nav ul li {
 /* More about ends */
 
 
+/* Education */
+
+.education {
+    background-color: var(--primary-color);
+    padding: 1rem 6rem;
+}
+
+.education h2 {
+    margin-bottom: var(--bottom-margin);
+    text-align: center;
+}
+
+.education h3 {
+    margin-bottom: var(--bottom-margin);
+    text-align: center;
+}
+
+.education p {
+    line-height: var(--line-height);
+    padding: 0.4rem;
+    text-align: center;
+}
+
+
+/* Education ends */
+
+
 /* Skills section */
 
 .skills {
