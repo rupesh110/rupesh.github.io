@@ -172,7 +172,7 @@ nav ul li {
 /* Education */
 
 .education {
-    background-color: var(--primary-color);
+    background-color: var(--bg-color);
     padding: 1rem 6rem;
 }
 
