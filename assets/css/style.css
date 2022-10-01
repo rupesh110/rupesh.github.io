@@ -26,6 +26,9 @@ html {
 }
 
 
+/*Frame around the image*/
+
+
 /* CSS Resets */
 
 * {
@@ -124,8 +127,10 @@ nav ul li {
 }
 
 .hero img {
-    height: 37.5rem;
-    width: 37.5rem;
+    height: 30.5rem;
+    width: 20.5rem;
+    border: 5px solid#ccc;
+    border-radius: 50px;
 }
 
 .bio {
@@ -160,9 +165,17 @@ nav ul li {
     text-align: center;
 }
 
-.more-about p {
-    line-height: var(--line-height);
-    padding: 0.4rem;
+.more-about h3 {
+    text-decoration: underline;
+}
+
+.more-about ul {
+    list-style-type: circle;
+    padding-left: 15px;
+}
+
+.tech_skills {
+    font-weight: bold;
 }
 
 
