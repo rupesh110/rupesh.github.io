@@ -26,6 +26,9 @@ html {
 }
 
 
+/*Frame around the image*/
+
+
 /* CSS Resets */
 
 * {
@@ -121,11 +124,14 @@ nav ul li {
     gap: 2.5rem;
     max-width: 68.75rem;
     margin: auto;
+    backgrond-color: blue;
 }
 
 .hero img {
-    height: 37.5rem;
-    width: 37.5rem;
+    height: 30.5rem;
+    width: 20.5rem;
+    border: 5px solid#ccc;
+    border-radius: 50px;
 }
 
 .bio {
@@ -160,13 +166,48 @@ nav ul li {
     text-align: center;
 }
 
-.more-about p {
-    line-height: var(--line-height);
-    padding: 0.4rem;
+.more-about h3 {
+    text-decoration: underline;
+}
+
+.more-about ul {
+    list-style-type: circle;
+    padding-left: 15px;
+}
+
+.tech_skills {
+    font-weight: bold;
 }
 
 
 /* More about ends */
+
+
+/* Education */
+
+.education {
+    background-color: var(--bg-color);
+    padding: 1rem 6rem;
+}
+
+.education h2 {
+    margin-bottom: var(--bottom-margin);
+    text-align: center;
+}
+
+.education h3 {
+    margin-bottom: var(--bottom-margin);
+    text-align: center;
+}
+
+.education p {
+    line-height: var(--line-height);
+    padding: 0.4rem;
+    text-align: center;
+}
+
+
+/* Education ends */
 
 
 /* Skills section */
