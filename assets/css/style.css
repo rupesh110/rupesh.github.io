@@ -124,6 +124,7 @@ nav ul li {
     gap: 2.5rem;
     max-width: 68.75rem;
     margin: auto;
+    backgrond-color: blue;
 }
 
 .hero img {
